@@ -1,0 +1,9 @@
+{
+  "id": "gacha-tracker",
+  "name": "Gacha Tracker 抽卡记录器",
+  "version": "0.5.8",
+  "minAppVersion": "0.15.0",
+  "description": "iPad友好版抽卡记录器：密探图鉴小图统一3:4并以上部为基准裁切。",
+  "author": "ChatGPT",
+  "isDesktopOnly": false
+}
