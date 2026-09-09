@@ -1,0 +1,22 @@
+.gacha-tracker-view { padding: 12px; }
+.gacha-toolbar { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.gacha-section { margin: 12px 0 18px; }
+.gacha-card-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(110px,1fr)); gap:10px; }
+.gacha-char-card { border:1px solid var(--background-modifier-border); border-radius:10px; padding:8px; text-align:center; }
+.gacha-char-card img { width:72px; height:72px; object-fit:cover; border-radius:10px; display:block; margin:0 auto 6px; }
+.gacha-char-placeholder { width:72px; height:72px; border-radius:10px; background:var(--background-secondary); display:flex; align-items:center; justify-content:center; margin:0 auto 6px; font-size:12px; opacity:.7; }
+.gacha-pool-card { border:1px solid var(--background-modifier-border); border-radius:12px; margin:10px 0; overflow:hidden; }
+.gacha-pool-head { display:flex; gap:10px; align-items:center; padding:10px; cursor:pointer; }
+.gacha-pool-head img { width:76px; height:52px; object-fit:cover; border-radius:8px; }
+.gacha-pool-meta { flex:1; min-width:0; }
+.gacha-pool-title { font-weight:700; }
+.gacha-records { display:grid; grid-template-columns:repeat(auto-fill,minmax(78px,1fr)); gap:6px; padding:8px; border-top:1px solid var(--background-modifier-border); }
+.gacha-record { border:1px solid var(--background-modifier-border); border-radius:8px; padding:5px; text-align:center; min-height:118px; }
+.gacha-record.offrate { background:rgba(220,60,60,.14); border-color:rgba(220,60,60,.5); }
+.gacha-record img { width:56px; height:56px; object-fit:cover; border-radius:8px; display:block; margin:0 auto 4px; }
+.gacha-record .placeholder { width:56px; height:56px; border-radius:8px; background:var(--background-secondary); display:flex; align-items:center; justify-content:center; margin:0 auto 4px; font-size:11px; opacity:.7; }
+.gacha-record-name { font-size:12px; line-height:1.25; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.gacha-record-pull { font-size:11px; opacity:.7; margin-top:2px; }
+.gacha-badge { display:inline-block; font-size:10px; padding:1px 5px; border-radius:999px; margin-top:3px; background:rgba(220,60,60,.18); }
+.gacha-checkbox-list { max-height:260px; overflow:auto; border:1px solid var(--background-modifier-border); border-radius:8px; padding:6px; }
+.gacha-checkbox-row { display:flex; align-items:center; gap:8px; padding:5px 2px; }
