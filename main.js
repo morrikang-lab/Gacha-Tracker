@@ -330,8 +330,7 @@ class GachaTrackerPlugin extends Plugin {
     await leaf.setViewState({ type:VIEW_TYPE_GACHA, active:true });
     this.app.workspace.revealLeaf(leaf);
   }
-  async saveData() { await this.saveDataRaw(this.data); }
-  async saveDataRaw(d) { await this.saveData(d); }
+  async saveData() { await super.saveData(this.data); }
 }
 
 module.exports = GachaTrackerPlugin;
