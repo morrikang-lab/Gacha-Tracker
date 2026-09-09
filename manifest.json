@@ -1,0 +1,9 @@
+{
+  "id": "gacha-tracker",
+  "name": "Gacha Tracker 抽卡记录器",
+  "version": "0.6.0",
+  "minAppVersion": "0.15.0",
+  "description": "iPad友好版招募记录器：40次保底进度、统一卡池编辑入口、密探图片手动取景。",
+  "author": "ChatGPT",
+  "isDesktopOnly": false
+}
