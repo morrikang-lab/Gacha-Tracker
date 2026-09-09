@@ -1,0 +1,9 @@
+{
+  "id": "gacha-tracker",
+  "name": "Gacha Tracker 抽卡记录器",
+  "version": "0.5.4",
+  "minAppVersion": "0.15.0",
+  "description": "iPad友好版抽卡记录器：保留原界面，角色图片、紧凑记录、UP角色自动判歪、坚果云友好。",
+  "author": "ChatGPT",
+  "isDesktopOnly": false
+}
