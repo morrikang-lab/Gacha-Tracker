@@ -1,0 +1,9 @@
+{
+  "id": "gacha-tracker",
+  "name": "Gacha Tracker 抽卡记录器",
+  "version": "0.6.1",
+  "minAppVersion": "0.15.0",
+  "description": "招募记录器：密探搜索、可调缩放取景、卡池内联编辑。",
+  "author": "ChatGPT",
+  "isDesktopOnly": false
+}
